@@ -1,4 +1,0 @@
-sudo xbps-install git wget linux-headers gcc base-devel 
-sudo reboot
-
-
