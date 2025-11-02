@@ -13,7 +13,7 @@ tar xjf broadcom-wl-5.100.138.tar.bz2
 
 sudo b43-fwcutter -w "$FIRMWARE_INSTALL_DIR" broadcom-wl-5.100.138/linux/wl_apsta.o
 
-modprobe b43 wl brcmsmac 
+sudo modprobe b43 wl brcmsmac 
 
 
 sudo xbps-install broadcom-wl-dkms 
