@@ -1,0 +1,16 @@
+cd ~
+
+sudo rmmod b43 wl brcmsmac bcma
+
+wget https://github.com/howtoedittv/broadcom-wl-void/releases/download/1.0/broadcom-wl-void.tar.gz
+
+tar -xvf broadcom-wl-void.tar.gz
+
+cd broadcom-wl
+
+
+make
+sudo make install
+sudo reboot
+
+
