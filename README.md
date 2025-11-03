@@ -4,25 +4,24 @@ the broadcom wl for the distro void linux working stably (not like the dkms one)
 
 # instrctions
 
-git clone the repo
 
-cd broadcom-wl-void
+#
+cd ~
+git clone https://github.com/howtoedittv/broadcom-wl-void.git 
 
-chmod +x runfirst && chmod +x easyinstall
+#
+cd ~/broadcom-wl-void
 
-./runfirst
+#
+chmod +x runme.sh
 
-your device will reboot
+#
+run runme.sh with
 
-after booting back cd into the folder and run the next file
+./runme.sh
 
-./easyinstall
 
-it will also reboot your device 
-
+# 
 after that broadcom wl should be started automticly if not start it with
 
 sudo modprobe wl 
-
-
-thats it. have a good day 
