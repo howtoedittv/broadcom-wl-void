@@ -1,3 +1,5 @@
+cd ~
+
 sudo xbps-install -Su xbps -y
 sudo xbps-install -Syyu -y
 sudo xbps-install xtools git wget linux-headers gcc base-devel void-repo-nonfree dkms nano -y 
